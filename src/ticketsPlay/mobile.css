@@ -1,0 +1,41 @@
+.playtickets{
+    margin: auto;
+        width: 100%;
+        background: #E4E7EC;
+        padding: 10px;
+    }
+    
+    .playtickets img{
+        width: 100%;
+    }
+    
+    .playtickets__question{
+        background-color: #fff;
+        padding: 8px;
+    }
+    
+    .playtickets__answers button{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        background-color: #fff;
+        width: 100%;
+        margin: 5px 0;
+        padding: 8px;
+        text-align: left;
+        border: 1px solid #ffbe0a;;
+    }
+    
+    .playtickets__info{
+        margin: 7px 0;
+    }
+    
+    .playtickets__blocks button{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 15px;
+        background-color: #fff;
+        width: 30px;
+        height: 30px;
+        margin:2px 2px;
+    }
+    
+    

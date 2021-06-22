@@ -1,0 +1,31 @@
+.stats__tickets{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 10px 70px;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . .";
+}
+
+.ticket__container{
+    background-color: #d2d7df;
+    padding: 10px;
+}
+
+.stats{
+    padding: 1% 12%;
+}
+
+.stats button{
+    border: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1vw;
+    cursor: pointer;
+    border-radius: 64px;
+    padding: 5px 10px;
+    background-color: #ffbe0a;
+    width: 15%;
+}

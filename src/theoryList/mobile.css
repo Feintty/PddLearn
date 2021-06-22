@@ -1,0 +1,22 @@
+.theorylist {
+    background-color: #d2d7df;
+    padding: 5%;
+  }
+  
+  .theorylist__heading {
+    margin-bottom: 20px;
+  }
+  
+  .theorylist__list li:hover {
+    color: #006af2;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+  }
+  
+  .theorylist ol {
+    padding: 0 17px;
+    margin: 0;
+  }
+  
+  
+  

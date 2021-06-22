@@ -1,0 +1,28 @@
+.playexam{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    margin-bottom:60%
+}
+
+.playexam__discription{
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3vw;
+    color: #006af2;
+    margin:5% 0;
+}
+
+.playexam button{
+    border:none;
+    font-family: 'Roboto Condensed', sans-serif;
+      font-size: 3vw;
+    cursor: pointer;
+      border-radius: 64px;
+      padding:5px 10px;
+      background-color: #ffbe0a;
+      width: 20%;
+      transition: 0.2s ease-in;
+}

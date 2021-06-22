@@ -1,0 +1,52 @@
+.tickets__number{
+    padding: 5%;
+}
+
+.tickets__numbers{
+    display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 5px 5px;
+  grid-template-areas:
+    ". . . . ."
+    ". . . . ."
+    ". . . . ."
+    ". . . . .";
+}
+
+.tickets__numbers button{
+    width:100%;
+    height: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+cursor: pointer;
+  border-radius: 64px;
+  border:2px solid #ffbe0a;
+}
+
+.tickets__heading{
+    margin-bottom: 20px;
+}
+
+.tickets__category{
+    background-color: #d2d7df;
+}
+
+.tickets__hard{
+    padding: 5%;
+}
+
+
+.tickets__wrong{
+    padding: 5%;
+    background-color: #d2d7df;
+}
+
+.tickets__hard button, .tickets__wrong button{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 5vw;
+  cursor: pointer;
+    border-radius: 64px;
+    padding:5px 10px;
+    background-color: #ffbe0a;
+}

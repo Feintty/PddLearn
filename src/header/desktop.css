@@ -1,0 +1,44 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+  background-color: #e4e7ec;
+  color: #006af2;
+  padding: 5px 12%;
+}
+
+.header__nav {
+  width: 550px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.header__nav-element, .header__nav-element a:visited{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  color: #006af2;
+  line-height: 28px;
+  transition: ease-out 0.15s;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.header__nav-element a:hover {
+  color: #ffbe0a;
+  transition: ease-out 0.15s;
+  cursor: pointer;
+}
+
+.header__logo {
+  font-family: "Righteous", cursive;
+}
+
+.header__burger{
+display: none;
+}

@@ -1,0 +1,38 @@
+.theorycontent {
+  padding: 1% 12%;
+}
+
+.theorycontent__heading{
+  color:#006af2;
+}
+
+.theorycontent li {
+  list-style-position: inside;
+}
+
+.theorycontent__heading {
+  margin-bottom: 20px;
+  color:#006af2;
+}
+
+.theorycontent__buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.inactive-button{
+    background-color: #e4e7ec;
+}
+
+.active-button{
+    background-color: #ffbe0a;
+}
+
+.theorycontent__button {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 20px;
+cursor: pointer;
+  border-radius: 64px;
+  padding:5px 10px;
+}
